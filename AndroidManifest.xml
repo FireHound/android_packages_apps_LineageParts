@@ -155,9 +155,7 @@
         </activity-alias>
         -->
 
-        <!--
         <activity android:name=".gestures.KeyHandler" />
-        -->
 
         <!-- Profiles settings (System category) -->
         <activity-alias

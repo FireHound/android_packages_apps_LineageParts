@@ -23,8 +23,9 @@ import android.content.SharedPreferences;
 import android.support.v7.preference.PreferenceManager;
 
 import org.lineageos.lineageparts.contributors.ContributorsCloudFragment;
-/*
 import org.lineageos.lineageparts.gestures.TouchscreenGestureSettings;
+
+/*
 import org.lineageos.lineageparts.input.ButtonSettings;
 */
 
@@ -44,9 +45,9 @@ public class BootReceiver extends BroadcastReceiver {
             ButtonSettings.restoreKeyDisabler(ctx);
             setRestoredTunable(ctx);
         }
+	*/
 
         TouchscreenGestureSettings.restoreTouchscreenGestureStates(ctx);
-        */
 
         // Extract the contributors database
         ContributorsCloudFragment.extractContributorsCloudDatabase(ctx);
